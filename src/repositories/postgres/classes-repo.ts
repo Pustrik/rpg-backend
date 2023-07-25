@@ -1,5 +1,5 @@
 import getCurrentDate from "../../utills/current-time-utill";
-import IClassPDB from "../../../interfaces/i-class-pdb";
+import IClassPDB from "../../interfaces/i-class-pdb";
 import {Class} from "../../databases/postgres/models/class-model";
 
 export default class ClassesRepo {

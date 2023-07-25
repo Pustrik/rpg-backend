@@ -1,7 +1,7 @@
 import {Thief} from "../entityes/thief";
 import {Warrior} from "../entityes/warrior";
 import {Mage} from "../entityes/mage";
-import IClassPDB from "../../interfaces/i-class-pdb";
+import IClassPDB from "../interfaces/i-class-pdb";
 import ClassesRepo from "../repositories/postgres/classes-repo";
 
 export enum CharClass {

@@ -1,5 +1,5 @@
 import {DataTypes, Model, Optional} from 'sequelize'
-import IUserPDB from "../../../../interfaces/i-user-pdb";
+import IUserPDB from "../../../interfaces/i-user-pdb";
 import {postgres} from "../postgres-db";
 export interface UserInput extends Optional<IUserPDB, null> {
 }

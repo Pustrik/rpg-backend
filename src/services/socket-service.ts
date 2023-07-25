@@ -1,7 +1,7 @@
 import player_model from "../databases/mongo/models/player-model";
 import playersDto from "../dtos/player-dto";
 import {io} from "../socket/socket-server";
-import IPlayer from "../../interfaces/i-player";
+import IPlayer from "../interfaces/i-player";
 
 export type SocketResponse = 'update_all' | 'update_one' | 'user_connected' | 'update_chat'| 'user_disconnected' | 'cant_attack' | 'cant_spell' | 'cant_revive' | 'error';
 

@@ -1,5 +1,5 @@
 import {DataTypes, Model, Optional} from 'sequelize'
-import IClassPDB from "../../../../interfaces/i-class-pdb";
+import IClassPDB from "../../../interfaces/i-class-pdb";
 import User from "./user-model";
 import {postgres} from "../postgres-db";
 

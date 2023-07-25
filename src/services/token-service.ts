@@ -1,7 +1,7 @@
 import * as jwt from "jsonwebtoken";
 import token_model from "../databases/mongo/models/token-model";
 import {userDto} from "../dtos/user-dto";
-import {ITokenPair} from "../../interfaces/i-token";
+import {ITokenPair} from "../interfaces/i-token";
 import dotenv from 'dotenv';
 dotenv.config();
 

@@ -1,4 +1,4 @@
-import IUserPDB from "../../../interfaces/i-user-pdb";
+import IUserPDB from "../../interfaces/i-user-pdb";
 import getCurrentDate from "../../utills/current-time-utill";
 import {Class} from "../../databases/postgres/models/class-model";
 import User from "../../databases/postgres/models/user-model";

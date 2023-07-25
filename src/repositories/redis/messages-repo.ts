@@ -1,5 +1,5 @@
 import {redis} from "../../databases/redis/redis-db";
-import IMessage from "../../../interfaces/i-message";
+import IMessage from "../../interfaces/i-message";
 
 export default class MessagesRepo {
 

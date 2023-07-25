@@ -1,5 +1,5 @@
-import IPlayer from '../../interfaces/i-player';
-import IMessage from '../../interfaces/i-message';
+import IPlayer from '../interfaces/i-player';
+import IMessage from '../interfaces/i-message';
 import player_model from '../databases/mongo/models/player-model';
 import {Socket} from 'socket.io';
 import {CharacterFactory} from './character-service';

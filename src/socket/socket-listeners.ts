@@ -1,6 +1,6 @@
 import {Socket} from "socket.io";
-import IPlayer from "../../interfaces/i-player";
-import IMessage from "../../interfaces/i-message";
+import IPlayer from "../interfaces/i-player";
+import IMessage from "../interfaces/i-message";
 import errorHandler from "../middleware/socket-middleware/errorhandler";
 import ListenersService from "../services/listeners-service";
 
