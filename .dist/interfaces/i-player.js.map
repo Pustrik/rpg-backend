@@ -1,1 +1,0 @@
-{"version":3,"file":"i-player.js","sourceRoot":"","sources":["../../interfaces/i-player.ts"],"names":[],"mappings":"","sourcesContent":["interface IPlayer {\n    socket_id: string,\n    username: string,\n    hp: number,\n    statuses: Array<number>,\n    class_id: number\n}\n\nexport default IPlayer;"]}

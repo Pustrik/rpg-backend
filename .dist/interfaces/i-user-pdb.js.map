@@ -1,1 +1,0 @@
-{"version":3,"file":"i-user-pdb.js","sourceRoot":"","sources":["../../interfaces/i-user-pdb.ts"],"names":[],"mappings":"","sourcesContent":["interface IUserPDB {\n    id: string,\n    email: string,\n    username: string,\n    password: string,\n    class_id: number,\n    created_at: string,\n    updated_at: string\n}\n\nexport default IUserPDB;"]}

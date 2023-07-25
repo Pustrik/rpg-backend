@@ -1,1 +1,0 @@
-{"version":3,"file":"i-message.js","sourceRoot":"","sources":["../../interfaces/i-message.ts"],"names":[],"mappings":"","sourcesContent":["interface IMessage {\n    username: string,\n    message: string\n}\n\nexport default IMessage;"]}
