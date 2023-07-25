@@ -1,0 +1,15 @@
+const path = require('path');
+
+
+module.exports = {
+	config: path.resolve(".dist/server/config/" + "database.js"),
+	"models-path": path.resolve(
+		".dist/server/databases/postgre_db/" + 'models'
+	),
+	"seeders-path": path.resolve(
+		".dist/server/migration/" + 'seeders'
+	),
+	"migrations-path": path.resolve(
+		".dist/server/migration/" + 'migrations'
+	),
+};

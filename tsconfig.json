@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "es5",
+      "es6"
+    ],
+    "outDir": "./.dist",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "node16",
+    "moduleResolution": "node",
+    "declaration": false,
+    "sourceMap": true,
+    "inlineSources": true,
+    "types": [
+      "node"
+    ],
+    "stripInternal": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "inlineSourceMap": false,
+    "noEmit": false,
+    "jsx": "react"
+  },
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "../client"
+  ]
+}

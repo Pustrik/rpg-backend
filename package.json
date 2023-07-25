@@ -1,0 +1,53 @@
+{
+  "start": "index.js",
+  "name": "main",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".dist/index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/tsc && nodemon ./.dist/src/index.js",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "keywords": [],
+  "author": "pustrik",
+  "license": "KPCK",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.14",
+    "@types/socket.io": "^3.0.2",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.8.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "readline-sync": "^1.4.10",
+    "redis": "^4.5.1",
+    "sequelize": "^6.28.0",
+    "sequelize-cli-typescript": "^3.2.0-c",
+    "socket.io": "^4.5.4",
+    "typescript": "^4.9.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.3",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/passport": "^1.0.11",
+    "@types/passport-jwt": "^3.0.8",
+    "@types/pg": "^8.6.5",
+    "@types/uuid": "^9.0.0",
+    "i": "^0.3.7",
+    "nodemon": "^2.0.20",
+    "sequelize-cli": "^6.5.2"
+  }
+}
